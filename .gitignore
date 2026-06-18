@@ -1,0 +1,32 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Local Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Databases & IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.DS_Store
+
+# Docker volumes and files
+pgdata/
+redisdata/
+.docker-compose.env
